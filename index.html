@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Undangan Khatamul Qur'an — 30 Agustus 2025</title>
+  <meta name="description" content="Undangan Khatamul Qur'an: Sabtu, 30 Agustus 2025 pukul 10.00 Wita - Selesai di Jl. DR. Sutomo No. 11, Kab. Barru." />
+  <meta name="theme-color" content="#ffffff" />
+  <meta property="og:title" content="Undangan Khatamul Qur'an — 30 Agustus 2025" />
+  <meta property="og:description" content="Mengundang Bapak/Ibu/Saudara/i menghadiri Khatamul Qur'an di Jl. DR. Sutomo No. 11, Kab. Barru." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="id_ID" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800;900&family=El+Messiri:wght@700;800;900&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      color-scheme: light dark;
+      --surface:#ffffff;
+      --mint:#63d2b4;
+      --sky:#8ec5ff;
+      --gold:#ffd36e;
+      --emerald:#16a085;
+      --sapphire:#2c6fd6;
+      --shadow: 0 18px 48px rgba(0, 0, 0, .15);
+      --radius: 22px;
+
+      /* Pola geometri islami (girih) — data URI SVG */
+      --girih: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='90' height='90' viewBox='0 0 90 90'%3E%3Cpath d='M45 5 L60 20 L85 20 L70 35 L75 55 L55 50 L45 65 L35 50 L15 55 L20 35 L5 20 L30 20 Z' fill='none' stroke='%23d1b35d' stroke-opacity='.28' stroke-width='1.6'/%3E%3Cpath d='M0 45h90M45 0v90' stroke='%2363d2b4' stroke-opacity='.16' stroke-width='1'/%3E%3Crect x='20' y='20' width='50' height='50' fill='none' stroke='%238ec5ff' stroke-opacity='.22' stroke-width='1.4' transform='rotate(45 45 45)'/%3E%3C/svg%3E");
+    }
+
+    *{box-sizing:border-box}
+    html, body{height:100%}
+    body{
+      margin:0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+      line-height:1.75;
+      background:
+        radial-gradient(1200px 700px at 110% -10%, rgba(255, 211, 110, .36), transparent 62%),
+        radial-gradient(1000px 650px at -10% -10%, rgba(99, 210, 180, .36), transparent 62%),
+        radial-gradient(1300px 780px at 50% 120%, rgba(142, 197, 255, .38), transparent 62%),
+        linear-gradient(180deg, #fbfff8 0%, #fffaf3 50%, #fff7fb 100%);
+      -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+    }
+    /* Pola girih halus di halaman */
+    body::before{
+      content:""; position:fixed; inset:0; pointer-events:none; z-index:0;
+      background-image: var(--girih);
+      background-size: 90px 90px;
+      background-repeat: repeat;
+      opacity:.14;
+    }
+
+    .shell{ max-width: 1000px; margin: clamp(12px, 3vh, 36px) auto; padding: clamp(10px, 2vw, 24px); position: relative; z-index:1; }
+    .frame{
+      position:relative; z-index:1; background: var(--surface);
+      border-radius: var(--radius); box-shadow: var(--shadow);
+      overflow:hidden; border: 1px solid rgba(0,0,0,.08);
+      min-height: min(92vh, 1120px);
+      display:flex; flex-direction:column; isolation:isolate;
+      background-image:
+        linear-gradient(135deg, rgba(255, 211, 110, .18), rgba(99, 210, 180, .14) 40%, rgba(142, 197, 255, .14) 75%);
+      background-blend-mode: lighten;
+    }
+    .frame::before{
+      content:""; position:absolute; inset:14px; border-radius: calc(var(--radius) - 10px);
+      background:
+        linear-gradient(#fff,#fff) padding-box,
+        conic-gradient(from 0deg, rgba(99,210,180,.7), rgba(142,197,255,.7), rgba(255,211,110,.75), rgba(99,210,180,.7)) border-box;
+      border: 1px solid transparent; pointer-events:none; opacity:.55;
+    }
+    .corner{
+      position:absolute; width: 68px; height: 68px; z-index: 2;
+      background:
+        radial-gradient(circle at 30% 30%, rgba(255,211,110,.6), rgba(99,210,180,.35), rgba(142,197,255,.35));
+      border: 1px solid rgba(0,0,0,.06);
+      box-shadow: 0 6px 16px rgba(0,0,0,.06);
+      transform: rotate(45deg); filter: blur(0.2px);
+    }
+    .corner.tl{ top: 10px; left: 10px; border-top-left-radius: 14px; }
+    .corner.tr{ top: 10px; right: 10px; border-top-right-radius: 14px; }
+    .corner.bl{ bottom: 10px; left: 10px; border-bottom-left-radius: 14px; }
+    .corner.br{ bottom: 10px; right: 10px; border-bottom-right-radius: 14px; }
+
+    /* HEADER */
+    .hero{
+      position:relative; text-align:center; padding: clamp(30px, 6vw, 60px) clamp(18px, 4.6vw, 46px) 22px;
+      background:
+        radial-gradient(1200px 320px at 50% -10%, rgba(255,211,110,.42), transparent 70%),
+        linear-gradient(180deg, rgba(99,210,180,.18), rgba(142,197,255,.16), rgba(255,211,110,.16), transparent 70%);
+      overflow:hidden;
+    }
+    .hero::before{
+      content:""; position:absolute; inset:0; z-index:0; opacity:.12; pointer-events:none;
+      background-image: var(--girih);
+      background-size: 90px 90px; background-repeat: repeat;
+    }
+    .masjid{
+      position:absolute; inset:auto 0 0 0; height: 120px; z-index:0; pointer-events:none; opacity:.20;
+      background:
+        radial-gradient(120px 120px at 35% 60%, #d1b35d 20%, transparent 60%),
+        radial-gradient(110px 110px at 50% 60%, #9fcfe9 20%, transparent 60%),
+        radial-gradient(140px 140px at 65% 60%, #8fd9c8 20%, transparent 60%),
+        linear-gradient(to top, transparent 0 40%, rgba(0,0,0,.06));
+      mask:
+        radial-gradient(70px 70px at 35% 60%, #000 60%, transparent 62%),
+        radial-gradient(60px 60px at 50% 60%, #000 60%, transparent 62%),
+        radial-gradient(80px 80px at 65% 60%, #000 60%, transparent 62%),
+        linear-gradient(#000,#000);
+      mix-blend-mode: multiply;
+    }
+
+    .quran{ position:relative; z-index:1; display:inline-block; color: #b78c2f; margin-bottom: 8px; }
+    .quran svg{ width: 58px; height: 58px; }
+
+    .hdr-stack{
+      position:relative; z-index:1;
+      display:flex; flex-direction:column; align-items:center;
+      gap: 8px; max-width: 760px; margin: 0 auto;
+    }
+
+    /* Arabic */
+    [lang="ar"], .arabic{
+      font-family: "Amiri", serif !important;
+      font-weight: 400 !important;
+      letter-spacing: 0 !important;
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    .arabic-slim{ display:inline-block; transform-origin:center; }
+    @media (min-width: 640px){ .arabic-slim{ transform: scaleX(1.03); } }
+    @media (max-width: 639px){ .arabic-slim{ transform: none; } }
+
+    .bismillah{
+      font-family: "Amiri", serif;
+      font-weight: 400;
+      font-size: clamp(22px, 3.4vw, 32px);
+      margin: 2px 0 6px;
+      white-space: nowrap;
+    }
+
+    .kicker{
+      display:inline-block;
+      font-size: 11.5px; letter-spacing: .18em; text-transform: uppercase;
+      background: #fff; border:1px solid rgba(0,0,0,.15);
+      padding: 6px 12px; border-radius: 999px; font-weight: 800;
+    }
+
+    .title{
+      font-family: "El Messiri", ui-sans-serif, system-ui, sans-serif;
+      font-weight:900; font-size: clamp(30px, 5.2vw, 48px);
+      margin: 6px 0 0;
+    }
+    .subtitle{ font-weight:800; font-size: clamp(14px, 2.2vw, 17px); margin-top: 2px; }
+
+    .divider{
+      margin: 16px auto 10px; width: min(620px, 92%); height: 10px; border-radius:999px;
+      background: linear-gradient(90deg, var(--mint), var(--sky), var(--gold));
+      opacity:.55;
+    }
+
+    .content{ padding: 10px clamp(18px, 4.6vw, 46px) 0; display:flex; flex-direction:column; flex:1; min-height:0; }
+    .salutation{ text-align:center; font-weight:900; font-size: clamp(18px, 2.6vw, 22px); margin-top: 8px; }
+    .intro{ text-align:center; margin: 10px auto 16px; font-size: 18px; max-width: 780px; font-weight:700; }
+
+    .name-box{
+      margin: 16px auto 0; width: min(720px, 100%);
+      border-radius: 18px; padding: 16px 18px; position:relative;
+      border: 1px solid rgba(0,0,0,.10); box-shadow: 0 6px 18px rgba(0,0,0,.06);
+      background: var(--girih) padding-box, #fff padding-box;
+      background-size: 70px 70px, auto; background-repeat: repeat, no-repeat;
+    }
+    .name-list{ margin:0; padding:0; list-style:none; display:flex; flex-direction:column; gap:10px; }
+    .name-list li{
+      display:inline-block; margin-inline:auto; padding: 10px 14px; border-radius: 999px;
+      background: linear-gradient(#fff,#fff) padding-box,
+                  linear-gradient(135deg, rgba(99,210,180,.72), rgba(142,197,255,.72), rgba(255,211,110,.8)) border-box;
+      border: 1px solid transparent;
+      font-weight:900; font-size: clamp(18px, 2.5vw, 22px);
+    }
+
+    .countdown-wrap{ margin: clamp(18px, 4vh, 28px) auto 0; width: min(840px, 100%); text-align:center; }
+    .cd-title{ font-weight:900; letter-spacing:.18em; text-transform:uppercase; font-size: 12px; }
+    .cd-grid{ margin-top: 10px; display:grid; gap:12px; grid-template-columns: repeat(4, 1fr); }
+    .cd-item{
+      border-radius: 16px; padding: 12px 10px;
+      background: linear-gradient(#fff,#fff) padding-box,
+                  linear-gradient(135deg, rgba(99,210,180,.85), rgba(142,197,255,.85), rgba(255,211,110,.92)) border-box;
+      border:1px solid transparent; box-shadow: 0 6px 18px rgba(0,0,0,.06);
+    }
+    .cd-num{ font-family: "El Messiri", ui-sans-serif, system-ui, sans-serif; font-size: clamp(24px, 4.8vw, 36px); font-weight: 900; line-height: 1.1; }
+    .cd-label{ margin-top: 2px; font-size: 12.5px; font-weight: 900; letter-spacing:.12em; text-transform: uppercase; }
+
+    .info-panel{ margin-top: auto; display:flex; justify-content:center; padding-top: clamp(18px, 4vh, 34px); }
+    .mihrab{
+      position:relative; width: min(840px, 96%); text-align:center; overflow:hidden; border-radius: 22px;
+      border: 1px solid transparent; box-shadow: 0 10px 26px rgba(0,0,0,.10);
+      background: var(--girih) padding-box,
+                  linear-gradient(#fff,#fff) padding-box,
+                  linear-gradient(120deg, var(--mint), var(--sky), var(--gold)) border-box;
+      background-size: 70px 70px, auto, auto; background-repeat: repeat, no-repeat, no-repeat;
+    }
+    .mihrab::before{
+      content:""; position:absolute; inset:0 0 52% 0; height: 60%;
+      background: radial-gradient(120% 100% at 50% 0, rgba(255,211,110,.24), transparent 60%),
+                  radial-gradient(120% 80% at 50% 0, rgba(142,197,255,.18), transparent 60%),
+                  radial-gradient(120% 60% at 50% 0, rgba(99,210,180,.16), transparent 60%);
+      opacity:.7; pointer-events:none;
+    }
+    .info-grid{ display:grid; grid-template-columns: 1fr; gap: 12px; width: min(620px, 100%); margin: 16px auto 8px; }
+    .info-item{
+      display:flex; gap:12px; align-items:center; text-align:left; padding: 12px 14px; border-radius: 16px;
+      background:#fff; border: 1px solid rgba(0,0,0,.12);
+    }
+
+    .icon-badge{ flex:0 0 auto; width: 44px; height: 44px; border-radius: 50%; display:inline-grid; place-items:center; color:#fff;
+      box-shadow: 0 6px 16px rgba(0,0,0,.12), inset 0 0 0 1px rgba(255,255,255,.22); }
+    .icon-badge svg{ width: 20px; height: 20px; }
+    .icon-calendar{ background: linear-gradient(135deg, var(--emerald), var(--gold)); }
+    .icon-clock{ background: linear-gradient(135deg, var(--sapphire), var(--emerald)); }
+    .icon-pin{ background: linear-gradient(135deg, var(--gold), var(--sapphire)); }
+
+    .label-wrap{ display:flex; flex-direction:column; gap:2px; }
+    .label{ font-weight:900; text-transform: uppercase; letter-spacing:.20em; font-size: 12px; }
+    .value{ font-weight:900; font-size: clamp(18px, 2.5vw, 22px); }
+
+    .cta{ display:flex; justify-content:center; gap:12px; flex-wrap:wrap; margin: 14px 0 16px; }
+    .btn{
+      display:inline-flex; align-items:center; gap:10px; padding: 12px 18px; border-radius: 12px;
+      font-weight:900; text-decoration:none; color:#000 !important;
+      background: linear-gradient(135deg, var(--mint), var(--sky), var(--gold));
+      border:1px solid rgba(0,0,0,.2); box-shadow: 0 6px 16px rgba(0,0,0,.06);
+    }
+    .btn .icon{ width: 18px; height: 18px; }
+
+    a{ text-decoration: underline; text-underline-offset: 2px; }
+    a:visited{ color:#000; }
+
+    .soft-divider{
+      margin: clamp(18px, 4vh, 28px) auto 10px; width: min(640px, 92%); height: 12px; border-radius:999px;
+      background: linear-gradient(90deg, var(--mint), var(--sky), var(--gold));
+      opacity:.55;
+    }
+
+    .footer{ text-align:center; padding: 0 clamp(16px, 4vw, 32px) clamp(22px, 6vw, 40px); }
+    .footer-title{ font-weight:900; margin-bottom: 6px; font-family: "El Messiri", ui-sans-serif, system-ui, sans-serif; }
+    .host-list{ margin: 10px auto 0; display:grid; gap: 12px; max-width: 880px; }
+    .host{
+      border-radius: 16px; padding: 10px 14px; text-align:center;
+      background: linear-gradient(#fff,#fff) padding-box,
+                  linear-gradient(135deg, rgba(255,211,110,.8), rgba(99,210,180,.7), rgba(142,197,255,.7)) border-box;
+      border: 1px solid transparent;
+    }
+    .host .line-1{ font-weight:900; }
+    .host .line-2{ font-size: 14.5px; font-weight:700; }
+
+    /* DOA + TERJEMAHAN */
+    .dua-section{
+      margin: clamp(18px, 4vh, 32px) auto 0;
+      width: min(820px, 100%);
+      text-align: center;
+      border-radius: 18px;
+      background: linear-gradient(#fff,#fff) padding-box,
+                  linear-gradient(135deg, rgba(99,210,180,.7), rgba(142,197,255,.7), rgba(255,211,110,.8)) border-box;
+      border: 1px solid transparent;
+      box-shadow: 0 6px 18px rgba(0,0,0,.06);
+      padding: clamp(12px, 2vw, 18px);
+    }
+    .dua-arab{
+      font-family: "Amiri", serif;
+      font-weight: 400;
+      font-size: clamp(20px, 2.8vw, 26px);
+      line-height: 1.6;
+    }
+    .dua-indo{
+      margin-top: 8px;
+      font-style: italic;
+      font-weight: 700;
+      font-size: 16px;
+    }
+
+    /* Penutup Wassalam (Arab) di paling akhir */
+    .closing-salam{
+      text-align: center;
+      margin: clamp(18px, 4vh, 28px) auto clamp(24px, 5vh, 36px);
+      font-family: "Amiri", serif;
+      font-weight: 400;
+      font-size: clamp(18px, 2.6vw, 22px);
+      line-height: 1.6;
+    }
+
+    @media (max-width: 560px){
+      .cd-grid{ grid-template-columns: repeat(2, 1fr); }
+      .name-list li{ width: 100%; text-align: center; }
+      .bismillah{ font-size: clamp(20px, 5.5vw, 26px); }
+      .kicker{ letter-spacing: .14em; }
+    }
+
+    /* GLOBAL: paksa semua TEKS jadi hitam */
+    :where(body) :is(h1,h2,h3,h4,h5,h6,p,small,strong,em,b,i,u,mark,blockquote,li,dt,dd,label,figcaption,caption,th,td,span,a,button,summary,time,div){
+      color:#000 !important;
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <article class="frame" role="article" aria-label="Undangan Khatamul Qur'an">
+      <!-- Ornamen sudut -->
+      <div class="corner tl" aria-hidden="true"></div>
+      <div class="corner tr" aria-hidden="true"></div>
+      <div class="corner bl" aria-hidden="true"></div>
+      <div class="corner br" aria-hidden="true"></div>
+
+      <header class="hero" aria-label="Header Islami">
+        <div class="masjid" aria-hidden="true"></div>
+
+        <span class="quran" aria-hidden="true">
+          <svg viewBox="0 0 64 64" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M10 14c0-2.2 1.8-4 4-4h20c3.9 0 7 3.1 7 7v32.5c0 1.4-1.6 2.3-2.8 1.5L32 45l-6.2 3.9c-1.2.8-2.8-.1-2.8-1.5V17c0-1.7 1.3-3 3-3h14c2.2 0 4 1.8 4 4v22.5" opacity=".15"/>
+            <path d="M10 14c0-2.2 1.8-4 4-4h12c2.2 0 4 1.8 4 4v34c0 1.5-1.6 2.4-2.8 1.6L22 45l-5.2 3.2c-1.2.8-2.8-.1-2.8-1.6V14Z"/>
+            <path d="M30 10h8c3.9 0 7 3.1 7 7v32.5c0 1.4-1.6 2.3-2.8 1.5L36 45l-6 3.8V14c0-2.2 1.8-4 4-4Z"/>
+            <path d="M32 22l1.8 3.7 4.1.6-3 2.9.7 4.1-3.6-1.9-3.6 1.9.7-4.1-3-2.9 4.1-.6L32 22Z" fill="#fff"/>
+          </svg>
+        </span>
+
+        <div class="hdr-stack">
+          <!-- Bismillah (Arab tipis, responsif, tidak pecah) -->
+          <div class="bismillah arabic arabic-slim" lang="ar" dir="rtl" aria-label="Bismillahirrahmanirrahim">
+            بِسْمِ ٱللّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+          </div>
+
+          <!-- Badge Undangan (ringkas) -->
+          <div class="kicker" aria-label="Undangan">Undangan</div>
+
+          <h1 class="title">Khatamul Qur'an</h1>
+          <!-- <div class="subtitle">Anak, Cucu, dan Keponakan</div> -->
+        </div>
+
+        <div class="divider" aria-hidden="true"></div>
+      </header>
+
+      <section class="content">
+        <!-- Salam pembuka Arab BERHARAKAT -->
+        <p class="salutation">
+          <span class="arabic arabic-slim" lang="ar" dir="rtl">السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ ٱللّٰهِ وَبَرَكَاتُهُ</span>
+        </p>
+
+        <p class="intro">
+          Dengan penuh rasa syukur serta atas rahmat dan kehadirat Allah Subhanahu wa ta'alaa, kami mengundang Bapak/Ibu/Saudara/i untuk menghadiri acara
+          <strong>Khatamul Qur'an</strong> Anak, Cucu, dan Keponakan kami:
+        </p>
+
+        <div class="name-box" aria-label="Nama-nama">
+          <ul class="name-list">
+            <li>Nurul Qalbi Ramadhani</li>
+            <li>Muh. Raehan Ibrahim</li>
+            <li>Muh. Ramdhani Ibrahim</li>
+          </ul>
+        </div>
+
+        <!-- Countdown -->
+        <div class="countdown-wrap" id="countdown" aria-live="polite" aria-atomic="true">
+          <div class="cd-title">Hitung Mundur ke Hari H</div>
+          <div class="cd-grid" role="group" aria-label="Waktu tersisa">
+            <div class="cd-item" aria-label="Hari tersisa">
+              <div class="cd-num" id="cd-days">--</div>
+              <div class="cd-label">Hari</div>
+            </div>
+            <div class="cd-item" aria-label="Jam tersisa">
+              <div class="cd-num" id="cd-hours">--</div>
+              <div class="cd-label">Jam</div>
+            </div>
+            <div class="cd-item" aria-label="Menit tersisa">
+              <div class="cd-num" id="cd-mins">--</div>
+              <div class="cd-label">Menit</div>
+            </div>
+            <div class="cd-item" aria-label="Detik tersisa">
+              <div class="cd-num" id="cd-secs">--</div>
+              <div class="cd-label">Detik</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Detail (stacked vertikal) -->
+        <div class="info-panel" aria-label="Detail Acara">
+          <div class="mihrab">
+            <div class="info-grid">
+              <div class="info-item">
+                <div class="icon-badge icon-calendar" aria-hidden="true">
+                  <!-- Calendar icon -->
+                  <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <rect x="3" y="4.5" width="18" height="15.5" rx="2" stroke="white" stroke-width="1.6"/>
+                    <path d="M7 3v3M17 3v3M3 8.5h18" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+                    <rect x="7" y="12" width="3" height="3" fill="white"/>
+                    <rect x="12" y="12" width="3" height="3" fill="white"/>
+                  </svg>
+                </div>
+                <div class="label-wrap">
+                  <div class="label">Tanggal</div>
+                  <div class="value">Sabtu, 30 Agustus 2025</div>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="icon-badge icon-clock" aria-hidden="true">
+                  <!-- Clock icon -->
+                  <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <circle cx="12" cy="12" r="8.5" stroke="white" stroke-width="1.6"/>
+                    <path d="M12 7.5v4.2l3.2 1.8" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <div class="label-wrap">
+                  <div class="label">Waktu</div>
+                  <div class="value">10.00 Wita - Selesai</div>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="icon-badge icon-pin" aria-hidden="true">
+                  <!-- Location pin icon -->
+                  <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path d="M12 3.5a6.5 6.5 0 0 0-6.5 6.5c0 4.3 6.5 10.5 6.5 10.5S18.5 14.3 18.5 10A6.5 6.5 0 0 0 12 3.5Z" stroke="white" stroke-width="1.6"/>
+                    <circle cx="12" cy="10" r="2.3" fill="white"/>
+                  </svg>
+                </div>
+                <div class="label-wrap">
+                  <div class="label">Tempat</div>
+                  <div class="value">Jl. DR. Sutomo No. 11, Kab. Barru</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="cta">
+              <a class="btn" href="https://maps.app.goo.gl/a8hvTAxCT489PG659" target="_blank" rel="noopener noreferrer" aria-label="Lihat lokasi di Google Maps">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 2C8.134 2 5 5.134 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.866-3.134-7-7-7Zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5Z" fill="currentColor"/>
+                </svg>
+                Lihat Lokasi
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="soft-divider" aria-hidden="true"></div>
+
+        <footer class="footer">
+          <div class="footer-title">Hormat Kami Yang Mengundang</div>
+          <div class="host-list" aria-label="Yang Mengundang">
+            <div class="host">
+              <div class="line-1">H. Ibrahim, S.Pd.I / Hj. Nurhapsah, S.Pd.I</div>
+              <div class="line-2">(Pens. Pengawas PAI Barru) (Pens. PB SKB Barru)</div>
+            </div>
+            <div class="host">
+              <div class="line-1">Burhan Ibrahim, A.Md / Ratih Purwasih, S.Pd.I</div>
+              <div class="line-2">(Perawat RS. Siloam Makassar) (Dinas Sosial Makassar)</div>
+            </div>
+            <div class="host">
+              <div class="line-1">Hj. Kamriah Ibrahim, S.Pd</div>
+              <div class="line-2">(TUTOR SKB Barru)</div>
+              
+            </div>
+          </div>
+        </footer>
+
+        <!-- Doa + Terjemahan -->
+        <section class="dua-section" aria-label="Doa">
+          <div class="dua-arab arabic arabic-slim" lang="ar" dir="rtl">
+            اللَّهُمَّ اجْعَلْنَا مِنْ أَهْلِ الْقُرْآنِ الَّذِينَ هُمْ أَهْلُكَ وَخَاصَّتُكَ
+          </div>
+          <div class="dua-indo">
+            Ya Allah, jadikanlah kami termasuk Ahlul Qur'an, orang-orang yang menjadi keluarga-Mu dan golongan khusus-Mu.
+          </div>
+        </section>
+
+        <!-- Penutup Wassalam (Arab) di akhir — sudah berharakat -->
+        <p class="closing-salam arabic arabic-slim" lang="ar" dir="rtl">
+          وَالسَّلَامُ عَلَيْكُمْ وَرَحْمَةُ ٱللّٰهِ وَبَرَكَاتُهُ
+        </p>
+      </section>
+    </article>
+  </main>
+
+  <!-- Countdown script -->
+  <script>
+    (function(){
+      // 10:00 WITA (UTC+8)
+      const target = new Date('2025-08-30T10:00:00+08:00');
+      const elDays = document.getElementById('cd-days');
+      const elHours = document.getElementById('cd-hours');
+      const elMins = document.getElementById('cd-mins');
+      const elSecs = document.getElementById('cd-secs');
+      const cdWrap = document.getElementById('countdown');
+
+      function pad(n){ return String(n).padStart(2, '0'); }
+
+      function tick(){
+        const now = new Date();
+        const diff = target - now;
+
+        if (diff <= 0){
+          elDays.textContent = '00';
+          elHours.textContent = '00';
+          elMins.textContent = '00';
+          elSecs.textContent = '00';
+
+          if (!cdWrap.dataset.done){
+            const status = document.createElement('div');
+            status.style.marginTop = '8px';
+            status.style.fontWeight = '900';
+            status.style.letterSpacing = '.08em';
+            status.style.textTransform = 'uppercase';
+            const after = now - target;
+            status.textContent = (after <= 4 * 60 * 60 * 1000) ? 'Acara sedang berlangsung' : 'Acara telah selesai';
+            cdWrap.appendChild(status);
+            cdWrap.dataset.done = '1';
+          }
+          return;
+        }
+
+        const sec = Math.floor(diff / 1000);
+        const days = Math.floor(sec / 86400);
+        const hours = Math.floor((sec % 86400) / 3600);
+        const mins = Math.floor((sec % 3600) / 60);
+        const secs = sec % 60;
+
+        elDays.textContent = pad(days);
+        elHours.textContent = pad(hours);
+        elMins.textContent = pad(mins);
+        elSecs.textContent = pad(secs);
+      }
+
+      tick();
+      setInterval(tick, 1000);
+    })();
+  </script>
+</body>
+
+</html>
+
